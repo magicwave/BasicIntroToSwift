@@ -1,23 +1,24 @@
 //: # A Brief Introduction to the Swift Programming Language #
 //: ----
-//: March 6, 2015 <br />
+//: March 6, 2015  
 //: Eric Turner, MagicWave Software
 //:
-//: With examples from presentations by <br />
-//: Sasha Goldstein, CTO Sela Group <br />
+//: With examples from presentations by:
+//:
+//: Sasha Goldstein, CTO Sela Group  
 //: [https://www.dropbox.com/s/knyyi6r8enk5rva/Swift.ppt?dl=0&force_no_progressive=1](https://www.dropbox.com/s/knyyi6r8enk5rva/Swift.ppt?dl=0&force_no_progressive=1)
 //:
-//: Roel Castano, Icalia Labs <br />
+//: Roel Castano, Icalia Labs  
 //: [http://www.slideshare.net/IcaliaLabs/swift-presentation-36290765](http://www.slideshare.net/IcaliaLabs/swift-presentation-36290765)
 //:
-//: Note: for this playground to render Markdown, it must be opened with Xcode version >= 6.3 beta 2 <br />
+//: Note: for this playground to render Markdown, it must be opened with Xcode version >= 6.3 beta 2  
 //: (Xcode menu: Editor > Show Documentation as Rich Text)
 
 //: ### Abstract ###
-//: Swift is a successor to the C and Objective-C languages. It includes low-level primitives such as types, flow control, and operators. It also provides object-oriented features such as classes, protocols, and generics, giving Cocoa and Cocoa Touch developers the performance and power they demand. <br />
+//: Swift is a successor to the C and Objective-C languages. It includes low-level primitives such as types, flow control, and operators. It also provides object-oriented features such as classes, protocols, and generics, giving Cocoa and Cocoa Touch developers the performance and power they demand.  
 //:     Apple's Swift page: [https://developer.apple.com/swift/](https://developer.apple.com/swift/)
 //:
-//: Swift is a multi-paradigm, compiled programming language created by Apple for iOS and OS X development. Introduced at Apple's 2014 Worldwide Developers Conference (WWDC),[5] Swift is designed to work with Apple's Cocoa and Cocoa Touch frameworks and the large body of existing Objective-C code written for Apple products. Swift is intended to be more resilient to erroneous code ("safer") than Objective-C, and also more concise. It is built with the LLVM compiler framework included in Xcode 6, and uses the Objective-C runtime, allowing C, Objective-C, C++ and Swift code to run within a single program.  <br />
+//: Swift is a multi-paradigm, compiled programming language created by Apple for iOS and OS X development. Introduced at Apple's 2014 Worldwide Developers Conference (WWDC),[5] Swift is designed to work with Apple's Cocoa and Cocoa Touch frameworks and the large body of existing Objective-C code written for Apple products. Swift is intended to be more resilient to erroneous code ("safer") than Objective-C, and also more concise. It is built with the LLVM compiler framework included in Xcode 6, and uses the Objective-C runtime, allowing C, Objective-C, C++ and Swift code to run within a single program.    
 //: Wikipedia: [http://en.wikipedia.org/wiki/Swift_(programming_language)](http://en.wikipedia.org/wiki/Swift_(programming_language))
 //: 
 //: ### Chris Lattner, principle author of the Swift Programming Language and the LLVM compiler ###
@@ -25,7 +26,7 @@
 //:
 //: I started work on the Swift Programming Language (wikipedia) in July of 2010. I implemented much of the basic language structure, with only a few people knowing of its existence. A few other (amazing) people started contributing in earnest late in 2011, and it became a major focus for the Apple Developer Tools group in July 2013.
 //:
-//: The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list.   <br />
+//: The Swift language is the product of tireless effort from a team of language experts, documentation gurus, compiler optimization ninjas, and an incredibly important internal dogfooding group who provided feedback to help refine and battle-test ideas. Of course, it also greatly benefited from the experiences hard-won by many other languages in the field, drawing ideas from Objective-C, Rust, Haskell, Ruby, Python, C#, CLU, and far too many others to list.     
 //: Chris's home page: [http://www.nondot.org/sabre/)](http://www.nondot.org/sabre/))
 //:
 //: ### Swift History ###
@@ -488,7 +489,7 @@ let filteredArray = Array(1...10).filter({ $0 % 2 == 0 })
 filteredArray
 
 
-//: Function definitions from the Array source file: <br />
+//: Function definitions from the Array source file:   
 //:
 //:    /// Interpose `self` between each consecutive pair of `elements`,
 //:    /// and concatenate the elements of the resulting sequence.  For
@@ -531,10 +532,10 @@ filteredArray
 //:
 //: ### More Resources ###
 //:
-//: See Ray Wenderlich site Swift Functional Programming Tutorial for more on functional Arrays
+//: See Ray Wenderlich site Swift Functional Programming Tutorial for more on functional Arrays  
 //: [http://www.raywenderlich.com/82599/swift-functional-programming-tutorial](http://www.raywenderlich.com/82599/swift-functional-programming-tutorial)
 //:
-//: A list of Swift resources maintained by Dave Hendrix (an esteemed Ashland CocoaHead) <br />
-//: [http://rogueminds.net/swift/](http://rogueminds.net/swift/) <br />
-//: Also get more info about local geek gatherings and Ashland CocoaHeads on Dave's page
+//: A list of Swift resources maintained by Dave Hendrix (an esteemed Ashland CocoaHead)  
+//: [http://rogueminds.net/swift/](http://rogueminds.net/swift/)   
+//: Also see the **Local Contacts** section on Dave's page for more info about local geek gatherings and Ashland CocoaHeads
 //: 
